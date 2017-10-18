@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5) url(../src/image/eagle.jpg) no-repeat center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding: 0 20%;
+}
+
+.key {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 2px solid #e36464;
+}
+
+.pressed {
+    border-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+}
