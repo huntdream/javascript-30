@@ -21,14 +21,13 @@ const callback = function (entries, observer) {
                 },
                 {
                     opacity: 0.5,
-                    transform: "scale(.5)"
                 },
                 {
-                    opacity: 1,
+                    opacity: 1.0,
                     transform: "scale(1)"
                 }
             ], {
-                duration: 3000,
+                duration: 2000,
             })
             el.appendChild(img);
             img.loaded = true;
