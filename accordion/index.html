@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Accordion</title>
+</head>
+
+<body>
+    <sc-accordion role="tablist">
+        <sc-pane tabindex="0" role="tabpanel">
+            <button role="tab">Panel 1</button>
+            <div class="content">
+                This is some content.
+            </div>
+        </sc-pane>
+        <sc-pane tabindex="0" role="tabpanel">
+            <button role="tab">Panel 1</button>
+            <div class="content">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minima similique autem ipsam, quis culpa
+                    omnis, necessitatibus voluptatum ut nobis esse neque aliquid. Error veritatis molestiae commodi inventore,
+                    iure magni!
+                </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minima similique autem ipsam, quis culpa
+                    omnis, necessitatibus voluptatum ut nobis esse neque aliquid. Error veritatis molestiae commodi inventore,
+                    iure magni!
+                </p>
+            </div>
+        </sc-pane>
+        <sc-pane tabindex="0" role="tabpanel">
+            <button role="tab">Panel 1</button>
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minima similique autem ipsam, quis culpa omnis, necessitatibus
+                voluptatum ut nobis esse neque aliquid. Error veritatis molestiae commodi inventore, iure magni!
+            </div>
+        </sc-pane>
+    </sc-accordion>
+    <script>
+    document.querySelector('sc-accordion').setAttribute('enhanced','');
+    </script>
+    <script src="./accordion.js"></script>
+</body>
+
+</html>
