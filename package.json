@@ -1,0 +1,26 @@
+{
+  "name": "js30",
+  "version": "1.0.0",
+  "description": "JavaScript 30",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huntdream/javascript-30.git"
+  },
+  "author": "Yu Mao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huntdream/javascript-30/issues"
+  },
+  "homepage": "https://github.com/huntdream/javascript-30#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}

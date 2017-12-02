@@ -10,15 +10,15 @@ textarea.addEventListener('cut', function (e) {
 
 textarea.addEventListener('copy', function (e) {
     info.textContent = `I cannot get data from clipboard,but I can get it from selection. \n You copied this: ${window.getSelection().toString()}`;
-    console.log(e)
+    console.log(e);
 });
 
 textarea.addEventListener('focus', function () {
-    info.textContent = "Welcome.You triggered focus event";
+    info.textContent = 'Welcome.You triggered focus event';
 });
 
 textarea.addEventListener('blur', function () {
-    info.textContent = "Farewell.You triggered blur event";
+    info.textContent = 'Farewell.You triggered blur event';
 });
 
 textarea.addEventListener('input', function (e) {
@@ -29,5 +29,5 @@ textarea.addEventListener('input', function (e) {
 //EventListener:[hashchange]
 window.addEventListener('hashchange', function () {
     let hash = document.location.hash;
-    document.querySelector('.hashchange').textContent="The current hash is:"+hash;
-})
+    document.querySelector('.hashchange').textContent='The current hash is:'+hash;
+});
