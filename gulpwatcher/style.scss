@@ -1,0 +1,30 @@
+@mixin border-radius($radius){
+    border-radius: $radius;
+}
+
+$fontSize: 16px;
+
+nav {
+    margin-right: 20px;
+    
+    :hover {
+        margin-right: 0;
+    }
+
+    h1 {
+        margin: 0;
+        height: 30px;
+        width: 200px;
+        @include border-radius(2px);
+        font-size: $fontSize;
+    }
+
+    h1:hover {
+        height: 40px;
+    }
+
+    span {
+        width: 10px;
+        height: 20px;
+    }
+}
