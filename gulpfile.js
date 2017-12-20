@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 
 gulp.task('sass', function () {
-    gulp.src('gulpwatcher/*.scss')
+    gulp.src('*.scss')
         .pipe(sass())
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('gulpwatcher/style.css'));
