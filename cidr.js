@@ -1,3 +1,4 @@
+// A simple util to parse IPV4 CIDR
 export default function parsecidr(cidr) {
   const [netprefix, digit] = cidr.split('/');
   const start = [];
