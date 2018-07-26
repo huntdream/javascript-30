@@ -7,4 +7,4 @@
   - [IntersectionObserver](https://huntdream.github.io/javascript-30/intersectionObserver) IntersectionObserver和Animation API的实践
   - [Html5 Events](https://huntdream.github.io/javascript-30/html5events) HTML5 事件 实践
   - [gulpwatcher](https://huntdream.github.io/javascript-30/gulpwatcher) Practise gulp and sass
-  - [cidr](https://huntdream.github.io/javascript-30/cidr.js) 解析IPV4 cidr地址
+  - [cidr](https://github.com/huntdream/javascript-30/blob/master/cidr.js) 解析IPV4 cidr地址
